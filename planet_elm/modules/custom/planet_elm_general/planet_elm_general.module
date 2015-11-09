@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the Planet Elm General feature.
+ */
+
+include_once 'planet_elm_general.features.inc';
+
+/**
+ * Implements hook_menu_alter().
+ *
+ * Remove the default /node menu item.
+ */
+function planet_elm_general_menu_alter(&$items) {
+  unset($items['node']);
+}

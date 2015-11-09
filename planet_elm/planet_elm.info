@@ -5,7 +5,6 @@ core = 7.x
 
 ; Core
 dependencies[] = block
-dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dblog
 dependencies[] = image
@@ -20,32 +19,17 @@ dependencies[] = file
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = ctools
-dependencies[] = date
-dependencies[] = entity
-dependencies[] = entity_token
-dependencies[] = entityreference
-dependencies[] = entity_validator
 dependencies[] = features
-dependencies[] = flag
-dependencies[] = geolocation
-dependencies[] = geolocation_html5
-dependencies[] = libraries
-dependencies[] = message
-dependencies[] = migrate
-dependencies[] = migrate_extras
+dependencies[] = feeds
+dependencies[] = feeds_news
+dependencies[] = feeds_ui
 dependencies[] = module_filter
-dependencies[] = og
-dependencies[] = og_access
-dependencies[] = og_ui
-dependencies[] = og_vocab
-dependencies[] = restful
-dependencies[] = restful_token_auth
+dependencies[] = page_manager
+dependencies[] = panels
 dependencies[] = strongarm
-dependencies[] = token
 dependencies[] = views
 dependencies[] = views_bulk_operations
+dependencies[] = views_content
 
-; PlanetElm
-dependencies[] = planet_elm_company
-dependencies[] = planet_elm_event
-dependencies[] = planet_elm_restful
+; Custom modules
+dependencies[] = planet_elm_general
