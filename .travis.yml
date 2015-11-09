@@ -49,6 +49,3 @@ script:
   # Run behat tests.
   - cd behat
   - ./bin/behat --tags=~@wip
-
-  # Print logs
-  - cat ~/phantomjs.log
