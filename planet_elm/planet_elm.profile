@@ -33,4 +33,5 @@ function planet_elm_install_tasks() {
  */
 function planet_elm_setup_variables() {
   variable_set('features_default_export_path', 'profiles/planet_elm/modules/custom');
+  variable_set('site_frontpage', 'rss-view');
 }
