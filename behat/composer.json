@@ -1,0 +1,10 @@
+{
+  "name": "Behat tests for PlanetElm",
+  "description": "Functional testing for PlanetElm installation profile.",
+  "require": {
+    "drupal/drupal-extension": "~3.0"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
