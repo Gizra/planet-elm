@@ -1,0 +1,13 @@
+name = Planet Elm General
+core = 7.x
+package = Elm
+dependencies[] = page_manager
+dependencies[] = views
+dependencies[] = views_content
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = rss_view
+features[views_view][] = feed_items
+features[views_view][] = feeds
+features_exclude[dependencies][ctools] = ctools
