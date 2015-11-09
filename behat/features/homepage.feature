@@ -4,7 +4,7 @@ Feature: User login
   I should be able to access the homepage
 
   @api
-  Scenario: Access RSS feed
+  Scenario: Access homepage as anonymous user
     Given I am an anonymous user
      When I visit "/"
      Then I should see "Home"
