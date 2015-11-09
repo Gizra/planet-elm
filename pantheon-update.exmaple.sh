@@ -6,7 +6,7 @@
 
 PROFILE=planet_elm
 
-MAKE_DIR=/var/www/planet_elm/www
+MAKE_DIR=/var/www/planet_elm
 PANTHEON_DIR=/var/www/pantheon-planet_elm
 
 cd $PANTHEON_DIR
