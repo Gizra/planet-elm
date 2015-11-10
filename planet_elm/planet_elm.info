@@ -23,6 +23,7 @@ dependencies[] = features
 dependencies[] = feeds
 dependencies[] = feeds_news
 dependencies[] = feeds_ui
+dependencies[] = jquery_update
 dependencies[] = module_filter
 dependencies[] = page_manager
 dependencies[] = panels

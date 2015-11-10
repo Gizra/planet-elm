@@ -7,4 +7,4 @@ Feature: User login
   Scenario: Access homepage as anonymous user
     Given I am an anonymous user
      When I visit "/"
-     Then I should see "Home"
+     Then I should see "PlanetElm"
