@@ -53,9 +53,6 @@ projects[module_filter][version] = 2.0-alpha2
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
 
-projects[panels_bootstrap_layouts][subdir] = "contrib"
-projects[panels_bootstrap_layouts][version] = "3.0"
-
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 

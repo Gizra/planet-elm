@@ -26,7 +26,6 @@ dependencies[] = feeds_ui
 dependencies[] = module_filter
 dependencies[] = page_manager
 dependencies[] = panels
-dependencies[] = panels_bootstrap_layouts
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_bulk_operations
