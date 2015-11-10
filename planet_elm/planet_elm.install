@@ -12,10 +12,10 @@ function planet_elm_install() {
   ini_set('auto_detect_line_endings', TRUE);
 
   // Enable our themes.
-  theme_enable(array('bartik', 'seven'));
+  theme_enable(array('seven', 'bootstrap_subtheme'));
 
   // Set the default theme.
-  variable_set('theme_default', 'bartik');
+  variable_set('theme_default', 'bootstrap_subtheme');
 
   // Enable node view page override by Page manager module.
   variable_set('page_manager_node_view_disabled', FALSE);
