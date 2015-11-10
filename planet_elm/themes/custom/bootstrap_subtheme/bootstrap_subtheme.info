@@ -1,0 +1,26 @@
+name = Bootstrap Sub-theme
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[header]         = 'Header'
+regions[front_header]   = 'Front Header'
+regions[sidebar]        = 'Sidebar'
+regions[footer]         = 'Footer'
+regions[content]        = 'Page content'
+regions[help]           = 'Help'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
+; Panel Layouts
+plugins[panels][layouts] = layouts

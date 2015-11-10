@@ -53,6 +53,9 @@ projects[module_filter][version] = 2.0-alpha2
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
 
+projects[panels_bootstrap_layouts][subdir] = "contrib"
+projects[panels_bootstrap_layouts][version] = "3.0"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
@@ -64,6 +67,10 @@ projects[views][version] = "3.13"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
+
+; Themes
+projects[bootstrap][subdir] = "contrib"
+projects[bootstrap][version] = "3.1"
 
 ; Development
 projects[devel][subdir] = "development"
