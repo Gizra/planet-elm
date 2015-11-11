@@ -189,3 +189,8 @@ blockquote p {
   height: 24px;
   margin-top: 5px;
 }
+
+/* Posted by */
+.view-feed-items .views-field-created {
+  margin-bottom: 10px;
+}
