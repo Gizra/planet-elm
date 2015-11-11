@@ -126,6 +126,8 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   /* Display: Feed */
   $handler = $view->new_display('feed', 'Feed', 'feed');
   $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '30';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'rss';
   $handler->display->display_options['row_plugin'] = 'node_rss';
   $handler->display->display_options['path'] = 'feeds.xml';
