@@ -32,6 +32,9 @@ projects[features][version] = "2.7"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "3.5"
 
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "2.1"
+
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.x-dev"
 
