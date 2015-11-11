@@ -135,6 +135,7 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
     'default' => 'default',
     'page' => 'page',
   );
+  $handler->display->display_options['sitename_title'] = 1;
 
   /* Display: Content pane */
   $handler = $view->new_display('panel_pane', 'Content pane', 'panel_pane_1');
