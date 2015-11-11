@@ -73,6 +73,7 @@ projects[views_bulk_operations][version] = "3.3"
 ; Themes
 projects[bootstrap][subdir] = "contrib"
 projects[bootstrap][version] = "3.1"
+projects[bootstrap][type] = "theme"
 
 ; Development
 projects[devel][subdir] = "development"
