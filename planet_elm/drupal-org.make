@@ -6,7 +6,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.5"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
@@ -18,8 +18,7 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta1"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.5"
-projects[entity][patch][] = "https://www.drupal.org/files/issues/2264079-entity-wrapper-access-single-entity-reference-2.patch"
+projects[entity][version] = "1.6"
 projects[entity][patch][] = "https://www.drupal.org/files/issues/2086225-entity-access-check-node-create-3.patch"
 
 projects[entityreference][subdir] = "contrib"
@@ -54,7 +53,7 @@ projects[mimemail][subdir] = "contrib"
 projects[mimemail][version] = "1.0-beta4"
 
 projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = 2.0-alpha2
+projects[module_filter][version] = "2.0"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
