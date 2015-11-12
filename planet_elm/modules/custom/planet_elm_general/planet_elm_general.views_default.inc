@@ -159,7 +159,7 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['row_options']['link_field'] = 'url_1';
   $handler->display->display_options['row_options']['description_field'] = 'field_feed_item_description';
   $handler->display->display_options['row_options']['creator_field'] = 'title_1';
-  $handler->display->display_options['row_options']['date_field'] = 'title_1';
+  $handler->display->display_options['row_options']['date_field'] = 'created';
   $handler->display->display_options['row_options']['guid_field_options'] = array(
     'guid_field' => 'guid',
     'guid_field_is_permalink' => 0,
