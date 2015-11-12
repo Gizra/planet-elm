@@ -53,6 +53,31 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['relationships']['feed_nid']['table'] = 'feeds_item';
   $handler->display->display_options['relationships']['feed_nid']['field'] = 'feed_nid';
   $handler->display->display_options['relationships']['feed_nid']['required'] = TRUE;
+  /* Field: Feeds item: Item GUID */
+  $handler->display->display_options['fields']['guid']['id'] = 'guid';
+  $handler->display->display_options['fields']['guid']['table'] = 'feeds_item';
+  $handler->display->display_options['fields']['guid']['field'] = 'guid';
+  $handler->display->display_options['fields']['guid']['label'] = '';
+  $handler->display->display_options['fields']['guid']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['guid']['element_label_colon'] = FALSE;
+  /* Field: Content title (excluded) */
+  $handler->display->display_options['fields']['title_2']['id'] = 'title_2';
+  $handler->display->display_options['fields']['title_2']['table'] = 'node';
+  $handler->display->display_options['fields']['title_2']['field'] = 'title';
+  $handler->display->display_options['fields']['title_2']['ui_name'] = 'Content title (excluded)';
+  $handler->display->display_options['fields']['title_2']['label'] = '';
+  $handler->display->display_options['fields']['title_2']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title_2']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_2']['link_to_node'] = FALSE;
+  /* Field: Item URL (excluded) */
+  $handler->display->display_options['fields']['url_1']['id'] = 'url_1';
+  $handler->display->display_options['fields']['url_1']['table'] = 'feeds_item';
+  $handler->display->display_options['fields']['url_1']['field'] = 'url';
+  $handler->display->display_options['fields']['url_1']['ui_name'] = 'Item URL (excluded)';
+  $handler->display->display_options['fields']['url_1']['label'] = '';
+  $handler->display->display_options['fields']['url_1']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['url_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['url_1']['display_as_link'] = FALSE;
   /* Field: Feeds item: Item URL */
   $handler->display->display_options['fields']['url']['id'] = 'url';
   $handler->display->display_options['fields']['url']['table'] = 'feeds_item';
@@ -129,7 +154,16 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['pager']['options']['items_per_page'] = '30';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'rss';
-  $handler->display->display_options['row_plugin'] = 'node_rss';
+  $handler->display->display_options['row_plugin'] = 'rss_fields';
+  $handler->display->display_options['row_options']['title_field'] = 'title_2';
+  $handler->display->display_options['row_options']['link_field'] = 'url_1';
+  $handler->display->display_options['row_options']['description_field'] = 'field_feed_item_description';
+  $handler->display->display_options['row_options']['creator_field'] = 'title_1';
+  $handler->display->display_options['row_options']['date_field'] = 'title_1';
+  $handler->display->display_options['row_options']['guid_field_options'] = array(
+    'guid_field' => 'guid',
+    'guid_field_is_permalink' => 0,
+  );
   $handler->display->display_options['path'] = 'feeds.xml';
   $handler->display->display_options['displays'] = array(
     'default' => 'default',
