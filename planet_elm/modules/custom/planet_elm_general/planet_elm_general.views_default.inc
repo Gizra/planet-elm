@@ -78,6 +78,16 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['fields']['url_1']['exclude'] = TRUE;
   $handler->display->display_options['fields']['url_1']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['url_1']['display_as_link'] = FALSE;
+  /* Field: Post date (excluded) */
+  $handler->display->display_options['fields']['created_1']['id'] = 'created_1';
+  $handler->display->display_options['fields']['created_1']['table'] = 'node';
+  $handler->display->display_options['fields']['created_1']['field'] = 'created';
+  $handler->display->display_options['fields']['created_1']['ui_name'] = 'Post date (excluded)';
+  $handler->display->display_options['fields']['created_1']['label'] = '';
+  $handler->display->display_options['fields']['created_1']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['created_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['created_1']['date_format'] = 'long';
+  $handler->display->display_options['fields']['created_1']['second_date_format'] = 'long';
   /* Field: Feeds item: Item URL */
   $handler->display->display_options['fields']['url']['id'] = 'url';
   $handler->display->display_options['fields']['url']['table'] = 'feeds_item';
@@ -159,7 +169,7 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['row_options']['link_field'] = 'url_1';
   $handler->display->display_options['row_options']['description_field'] = 'field_feed_item_description';
   $handler->display->display_options['row_options']['creator_field'] = 'title_1';
-  $handler->display->display_options['row_options']['date_field'] = 'created';
+  $handler->display->display_options['row_options']['date_field'] = 'created_1';
   $handler->display->display_options['row_options']['guid_field_options'] = array(
     'guid_field' => 'guid',
     'guid_field_is_permalink' => 0,
