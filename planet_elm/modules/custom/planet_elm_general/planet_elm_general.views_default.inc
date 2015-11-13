@@ -86,7 +86,8 @@ Subscribe with RSS <a href="/feeds.xml"><img src="https://cloud.githubuserconten
   $handler->display->display_options['fields']['created_1']['label'] = '';
   $handler->display->display_options['fields']['created_1']['exclude'] = TRUE;
   $handler->display->display_options['fields']['created_1']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['created_1']['date_format'] = 'long';
+  $handler->display->display_options['fields']['created_1']['date_format'] = 'custom';
+  $handler->display->display_options['fields']['created_1']['custom_date_format'] = 'r';
   $handler->display->display_options['fields']['created_1']['second_date_format'] = 'long';
   /* Field: Feeds item: Item URL */
   $handler->display->display_options['fields']['url']['id'] = 'url';
